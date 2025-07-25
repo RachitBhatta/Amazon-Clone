@@ -15,10 +15,26 @@
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  font-family: Arial, sans-serif;
+  font-family: monospace,Arial, sans-serif;
   z-index: 10000;
   opacity: 1;
   transition: opacity 1s ease;
+}
+#intro-screen h1{
+    margin-inline:auto;
+    overflow:hidden;
+    white-space:nowrap;
+    border-right:1px soild white;
+    animation : typing 2s steps(22) forwards;
+
+}
+@keyframes typing{
+    from{
+        width:0px;
+    }
+    to{
+        width:100%;
+    }
 }
 
 
