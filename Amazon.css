@@ -33,7 +33,7 @@
         width:0px;
     }
     to{ 
-        width:100%;
+        width:200px;
     }
 }
 @keyframes blink{
